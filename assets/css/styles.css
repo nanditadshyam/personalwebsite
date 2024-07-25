@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: "Monaco", monospace; /* Default font family for the entire page */
+    background-color: #f0f0f0; /* Default background color */
+    color: #f0f0f0; /* Default text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header Styles */
+#header {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#header h1 a {
+    color: #fff; /* Header link color */
+    text-decoration: none;
+}
+
+/* Banner Styles */
+#banner {
+    background-image: url('/Users/dayas/Downloads/background.jpg'); /* Banner background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color inside banner */
+    padding: 4em 0;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 3em; /* Banner heading font size */
+    margin-bottom: 0.5em;
+}
+
+#banner p {
+    font-size: 1.5em; /* Banner paragraph font size */
+    margin-bottom: 2em;
+}
+
+#banner .button {
+    background-color: #4CAF50; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#banner .button:hover {
+    background-color: #45a049; /* Button background color on hover */
+}
+
+/* Additional Styles for .p3 */
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace; /* Font family for .p3 class */
+}
+
+/* Responsive Design (optional) */
+@media screen and (max-width: 768px) {
+    /* Example: Adjust styles for smaller screens */
+    #banner {
+        padding: 2em 0;
+    }
+
+    #banner h2 {
+        font-size: 2.5em;
+    }
+
+    #banner p {
+        font-size: 1.2em;
+    }
+
+    #banner .button {
+        padding: 0.8em 1.5em;
+    }
+}
